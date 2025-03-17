@@ -1,1 +1,2 @@
-# homeworks_HTML_CSS
+
+Homework for the course 'Freelancer for Life'
