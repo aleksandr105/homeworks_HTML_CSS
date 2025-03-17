@@ -1,2 +1,2 @@
 
-Homework for the course 'Freelancer for Life'
+Homeworks for the course 'Freelancer for Life'
