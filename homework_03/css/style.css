@@ -1,1 +1,62 @@
 @import url("reset.css");
+
+* {
+ color: rgb(133, 137, 137);
+}
+
+h1 {
+ color:black
+}
+
+.title {
+ color:blue}
+
+ #general_information{
+color:rgb(8, 209, 38)
+ }
+
+ [class*="te"]{
+color: cadetblue;
+}
+
+h2.heading{
+ color: blueviolet;
+}
+
+.text.info{
+ color: rgb(226, 124, 88)
+}
+
+.slogan,
+.quote{
+ color: rgb(255, 0, 225)
+}
+
+.navigation li{
+ color: rgb(133, 80, 255);
+}
+
+.main .description{
+ color: black;
+}
+
+.container * {
+ color: rgba(248, 13, 13, 0.293);
+}
+
+.wrapper > p {
+ color: black;
+}
+
+.quote ~ a{
+ color: rgb(255, 0, 0);
+ display: block;
+}
+
+.title + p {
+ color: rgb(255, 255, 7);
+}
+
+[title]{
+ color: rgb(255, 0, 0) !important;
+}
