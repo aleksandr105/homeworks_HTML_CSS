@@ -1,1 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap");
+@import url("fonts.css");
 @import url("reset.css");
+
+body{
+ font-family: "Roboto", "Inter", sans-serif;
+ font-weight: 300;
+  line-height: calc(22/16); /* 22px */
+  color: #141414;
+ 
+}
+/* header */
+
+header a{
+ text-decoration: underline;
+ color: #ff0000;
+ font-weight: 700;
+ font-size: 20px;
+ line-height:calc(25/20) ;
+}
+
+
+/* main */
+
+h1{
+ text-align: center;
+ font-weight: 700;
+ font-size: 44px;
+ line-height: 48px;
+}
+
+#news{
+ font-weight: 700;
+ text-align: center;
+}
+
+.information{
+ font-size: 13px;
+ font-weight: 700;
+ color:#545658; 
+ font-style: oblique;
+}
+
+.regular{
+ font-weight: 400;
+}
+
+.description-event{
+ font-style: italic;
+}
+
+.text-right{
+ text-align: right;
+}
+
+.text-justify{
+ text-align: justify;
+}
+
+.decoration-text-overline{
+ text-decoration: overline;
+ text-decoration-color:blue;
+ text-decoration-style: dashed;
+}
+
+.decoration-text-underline{
+ text-decoration:underline;
+ text-decoration-color: rgb(0, 255, 85);
+  text-decoration-style: dotted;
+}
+
+.decoration-text-line-through{
+ text-decoration:line-through;
+ text-decoration-color: rgb(228, 126, 8);
+  text-decoration-style: double;
+}
+
+.wavy{
+  text-decoration-style: wavy;
+}
+
+.text-shadow{
+ text-shadow: 5px 5px 1px #000000;
+}
+
+.wrapper{
+ font-size: 18px;
+ font-family: Inter, sans-serif;
+ font-weight: 400;
+  line-height: 25px;
+  color: #141414;
+}
+
+.text-capitalize{
+ text-transform: capitalize;
+}
+
+.text-uppercase{
+ text-transform: uppercase;
+}
+
+.text-lowercase{
+ text-transform: lowercase;
+}
+
+#why-important{
+ text-align: center;
+ font-weight: 700;
+ font-size: 32px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ word-spacing: 10px;
+}
+
+/* Ecobazar style */
+
+#eco-market{
+ font-weight: 700;
+ text-align: center;
+ font-size: 32px;
+ letter-spacing: 5px;
+ text-transform: uppercase;
+ color: green;
+}
+
+.eco-market-wrapper{
+ font-family: Poppins;
+  font-size: 18px; 
+  font-weight: 400;
+  line-height: 1.5;
+  color: #808080;
+}
+
+.eco-market-title{
+color:#1A1A1A;
+ font-family: Poppins;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 1.5;
+}
+
+/* footer style */
+
+footer{
+ font-family: "Inter", sans-serif;
+ font-size: 14px;
+ font-weight: 300;
+ color:blue;
+ text-align: center;
+ font-style: italic;
+ a{
+  color:rgb(255, 0, 0);
+  text-decoration: none;
+  font-weight: 700;
+  font-style: oblique;
+  }
+ }
+

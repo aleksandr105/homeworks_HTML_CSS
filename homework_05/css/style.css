@@ -1,0 +1,11 @@
+*{
+ color: green;
+}
+
+.block{
+ color: blue;
+}
+
+div.block{
+ color: pink;
+}
