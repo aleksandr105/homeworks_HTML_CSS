@@ -1,11 +1,150 @@
-*{
- color: green;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+ font-family: "CircularStd", "Montserrat", sans-serif;
+ font-weight: 700;
+ line-height: calc(20/14); /* 20px */
+ color: #FFFFFF;
+font-size: 14px;
+}
+/* header */
+
+header a{
+ text-decoration: underline;
+ color: #ff0000;
+ font-weight: 700;
+ font-size: 20px;
+ line-height:calc(25/20) ;
+padding: 20px 30px;
 }
 
-.block{
- color: blue;
+/* main */
+main{
+  padding: 80px 0px;
 }
 
-div.block{
- color: pink;
+.container{
+ max-width: 1050px;
+ margin: 0 auto;
+ padding: 0 10px;
 }
+
+h1{
+ text-align: center;
+ font-weight: 700;
+ font-size: 44px;
+ line-height: 48px;
+ font-style: italic;
+ color: black;
+ margin-bottom: 20px;
+}
+
+.section-explore{
+background-color:#231F8B;
+}
+
+.explore-wrapper{
+  padding: 112px 0px;
+}
+
+.first-paragraph {
+color:#5A54F2;
+font-family: "Montserrat", sans-serif;
+line-height: calc(24/14);
+letter-spacing: 0.2px;
+margin-bottom: 10px;
+}
+
+.explore-title{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.explore-text{
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.text-wrapper{
+ margin-bottom: 70px;
+ max-width: 765px;
+}
+
+.item{
+  padding: 35px 40px;
+  background-color: #FFFFFF;
+  width: 230px;
+  display: inline-block;
+  margin-right: 35px;
+  vertical-align: top;
+}
+
+.list-explore{
+  font-size: 0;
+}
+
+.item.item-bottom {
+  margin-top: 48px;
+}
+
+.other-item{
+  background-color: #5A54F2;
+  color: #FFFFFF;
+}
+
+.other-item h3,
+.other-item p {
+  color: #FFFFFF;
+}
+
+.other-item div{
+  background-color: #FFFFFF;
+}
+
+.list-title{
+  margin: 20px 0px;
+  color: #252B42;
+  font-size: 16px;
+  line-height: calc(24/16);
+  letter-spacing: 0.1px; 
+}
+
+.line{
+  width: 50px;
+  height: 2px;
+  background: #E74040;
+  margin-bottom: 20px;  
+}
+
+.item-text{
+  color: #737373;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+}
+
+.remove-margin{
+  margin-right: 0;
+}
+
+/* footer */
+
+footer{
+ font-family: "Inter", sans-serif;
+ font-size: 14px;
+ font-weight: 300;
+ color:blue;
+ text-align: center;
+ font-style: italic;
+ }
+
+ footer a {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  font-weight: 700;
+  font-style: oblique;
+}
+
