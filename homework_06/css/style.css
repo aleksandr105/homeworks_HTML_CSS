@@ -1,18 +1,31 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500&display=swap");
+/* @import url("fonts.css"); */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap");
-@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
 @import url("reset.css");
 
 body{
- font-family: "Roboto", "Inter", sans-serif;
- font-weight: 300;
-  line-height: calc(22/16); /* 22px */
-  color: #141414;
- 
+ font-family: "Montserrat", "Roboto", "Poppins", sans-serif;
+  color: #FFFFFF;
+  line-height: 1.5;
 }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 /* header */
+header{
+  padding: 20px 0px 20px 40px;
+}
+
+header li:not(:last-child){
+margin-bottom: 10px;
+}
 
 header a{
+  padding: 5px;
  text-decoration: underline;
  color: #ff0000;
  font-weight: 700;
@@ -23,137 +36,199 @@ header a{
 
 /* main */
 
-h1{
- text-align: center;
- font-weight: 700;
- font-size: 44px;
- line-height: 48px;
+.container {
+  max-width: 1302px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-#news{
- font-weight: 700;
- text-align: center;
+.phantom-indentation-dell{
+  font-size: 0px;
 }
 
-.information{
- font-size: 13px;
- font-weight: 700;
- color:#545658; 
- font-style: oblique;
+.about-hydro-background-img{
+  background: url("../img/line-top.svg") no-repeat 0px 54px / contain,
+      url("../img/line-bottom.svg") no-repeat 0px 330px / contain;
 }
 
-.regular{
- font-weight: 400;
+/*about Hydra */
+
+.hydra-contant-container{
+  background-color: #302C42;
+  padding: 100px 0;
 }
 
-.description-event{
- font-style: italic;
+.hydra-img {
+  max-width: 524px;
+  border-radius: 240px 100px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 108px;
 }
 
-.text-right{
- text-align: right;
+.hydra-text-container {
+display: inline-block;
+max-width: 630px;
+vertical-align: top;
+padding-top: 50px;
 }
 
-.text-justify{
- text-align: justify;
+.hydra-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 42px;
 }
 
-.decoration-text-overline{
- text-decoration: overline;
- text-decoration-color:blue;
- text-decoration-style: dashed;
+.hydra-title > span{
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.95);
+  display: block;
+  margin-top: 5px;
 }
 
-.decoration-text-underline{
- text-decoration:underline;
- text-decoration-color: rgb(0, 255, 85);
-  text-decoration-style: dotted;
+.hydra-text {
+  margin-bottom: 28px;
+  font-size: 16px;
 }
 
-.decoration-text-line-through{
- text-decoration:line-through;
- text-decoration-color: rgb(228, 126, 8);
-  text-decoration-style: double;
+.hydra-button {
+  padding: 17px 47px 16px 39px;
+  color: #343045;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
 }
 
-.wavy{
-  text-decoration-style: wavy;
+/* hydro contacts */
+
+.contact-container {
+  background-color: #302C42;
+  padding-bottom: 100px;
 }
 
-.text-shadow{
- text-shadow: 5px 5px 1px #000000;
+.contact-list {
+  padding: 25px 0px 25px 39px;
+  font-size: 0;
+  border-radius: 90px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
 }
 
-.wrapper{
- font-size: 18px;
- font-family: Inter, sans-serif;
- font-weight: 400;
-  line-height: 25px;
-  color: #141414;
+.contact-item {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.text-capitalize{
- text-transform: capitalize;
+.contact-link {
+  font-size: 0px;
+  padding: 23px 0px;
 }
 
-.text-uppercase{
- text-transform: uppercase;
+.contact-link-localization {
+ padding-right: 42px; 
+border-right: 1px solid rgba(192, 183, 232, 0.33);
 }
 
-.text-lowercase{
- text-transform: lowercase;
+.contact-link-phone {
+  padding-left: 47px;
+  padding-right: 66px;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
 }
 
-#why-important{
- text-align: center;
- font-weight: 700;
- font-size: 32px;
- text-transform: uppercase;
- letter-spacing: 3px;
- word-spacing: 10px;
+.contact-link-phone > img{
+  margin-right: 29px;
+}
+
+.contact-link-email{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.contact-link-email > img {
+  margin-right: 23px;
+}
+
+.contact-text-container{
+  display: inline-block;  
+  vertical-align: top;
+} 
+
+.contact-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-text {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Ecobazar style */
 
-#eco-market{
- font-weight: 700;
- text-align: center;
- font-size: 32px;
- letter-spacing: 5px;
- text-transform: uppercase;
- color: green;
+.eco-shop-container {
+background-color: #fff;
+margin-top: 100px;
+font-family: "Poppins", "Roboto", sans-serif;
+font-size: 14px;
+color: #808080;
+padding-bottom: 80px;
 }
 
-.eco-market-wrapper{
- font-family: Poppins;
-  font-size: 18px; 
-  font-weight: 400;
-  line-height: 1.5;
-  color: #808080;
+.eco-shop-title{
+  color: rgb(0, 175, 32);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 80px;
 }
 
-.eco-market-title{
-color:#1A1A1A;
- font-family: Poppins;
- font-size: 20px;
- font-weight: 500;
- line-height: 1.5;
+.eco-shop-text-container{
+  max-width: 648px;
+}
+
+.text-descriptions {
+  margin-bottom: 25px;
+}
+
+.text-desscriptions-margin-bottom{
+  margin-bottom: 20px;
+}
+
+.description-list{
+  margin-bottom: 20px;
+}
+
+.description-item{
+min-height: 20px;
+padding-left: 28px;
+background: url("../img/check.svg") no-repeat 0px 0px / contain;
+}
+
+.description-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.description-item-text {
+  line-height: 1.4;
 }
 
 /* footer style */
+footer {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: blue;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
 
-footer{
- font-family: "Inter", sans-serif;
- font-size: 14px;
- font-weight: 300;
- color:blue;
- text-align: center;
- font-style: italic;
- a{
-  color:rgb(255, 0, 0);
-  text-decoration: none;
+footer a {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
   font-weight: 700;
   font-style: oblique;
-  }
- }
-
+}
