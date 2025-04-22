@@ -1,16 +1,36 @@
 /* @import url("fonts.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url("reset.css");
 
 body{
- font-family: "Roboto", "Inter", sans-serif;
- font-weight: 300;
+ font-family: "Caveat", "Inter", sans-serif;
   line-height: calc(22/16); /* 22px */
   color: #141414;
  
 }
+
+main{
+  margin-bottom: 80px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* header */
 
 header {
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
   padding: 20px 0px 20px 40px;
 }
 
@@ -20,22 +40,130 @@ header li:not(:last-child) {
 
 header a {
   padding: 5px;
-  text-decoration: underline;
-  color: #ff0000;
+  color: green;
   font-weight: 700;
-  font-size: 20px;
-  line-height: calc(25/20);
+  font-size: 25px;
+  line-height: calc(25/25);
 }
 
+header a:hover{
+  color:#ff0000;
+  text-decoration: underline;
+}
 
 /* main */
+h1{
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#icons{
+  font-size: 30px;
+  color: #ff0000;
+  margin-bottom: 50px;
+}
+
+.icons-wrapper>p{
+  margin-bottom: 50px;
+}
+
+.icons-wrapper>div>img[src*="svg-icons"]{
+  width: 50px;
+}
+
+.icons-wrapper{
+    background-color: rgb(58, 49, 232);
+      border-radius: 20px;
+      padding: 30px;
+}
+
+.icons-wrapper>div:not(:last-child){
+  margin-bottom: 30px;
+}
+
+#content-image{
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+.content-image-wrapper{
+  background-color: rgb(255, 251, 134);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.content-image-text{
+  margin-bottom: 30px;
+}
+
+.content-image-logo{
+  padding: 20px;
+  background-color: rgba(18, 11, 11, 0.51);
+  color: rgb(255, 251, 134);
+  margin-bottom: 60px;
+}
+
+.content-image-hero>p{
+  margin-bottom: 20px;
+}
+
+.content-image-hero{
+  margin-bottom: 60px;
+}
+
+.content-image-wrapper>.content-svg-container:not(:last-child){
+  margin-bottom: 40px;
+}
+
+.content-image-man{
+  border-radius: 150px 0px;
+}
+
+.content-image-container{
+  margin-bottom: 60px;
+}
+
+.content-svg{
+  background-color: #141414;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#elements-of-desing{
+  font-size: 30px;
+}
+
+.elements-of-desing-wrapper{
+background:rgb(232, 241, 241) url("../img/elements-of-design/line-bottom.svg") no-repeat 0 400px;
+border-radius: 20px;
+padding: 30px;
+min-height: 630px;
+}
+
+.elements-of-desing-wrapper >p:not(:last-child){
+  margin-bottom: 80px;
+}
+
+.elements-of-desing-wrapper>p:last-child{
+  color: #ff0000;
+}
 
 /* footer style */
 
 footer {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 16px;
   color: blue;
   text-align: center;
   font-style: italic;
@@ -43,9 +171,13 @@ footer {
 }
 
 footer a {
-  color: rgb(255, 0, 0);
-  text-decoration: underline;
+  color: green;
+  
   font-weight: 700;
   font-style: oblique;
 }
 
+footer a:hover {
+text-decoration: underline;
+color: #ff0000;
+}
