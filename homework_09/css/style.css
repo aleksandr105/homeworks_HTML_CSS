@@ -1,51 +1,23 @@
 /* @import url("fonts.css"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url("reset.css");
 
 body{
- font-family: "Roboto", "Inter", sans-serif;
- font-weight: 300;
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
   line-height: calc(22/16); /* 22px */
   color: #141414;
  
 }
-/* header */
 
-header {
-  padding: 20px 0px 20px 40px;
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
 }
 
-header li:not(:last-child) {
-  margin-bottom: 10px;
-}
-
-header a {
-  padding: 5px;
-  text-decoration: underline;
-  color: #ff0000;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: calc(25/20);
-}
-
-
-/* main */
-
-/* footer style */
-
-footer {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: blue;
-  text-align: center;
-  font-style: italic;
-  padding-bottom: 20px;
-}
-
-footer a {
-  color: rgb(255, 0, 0);
-  text-decoration: underline;
-  font-weight: 700;
-  font-style: oblique;
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
